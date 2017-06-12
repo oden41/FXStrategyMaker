@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <string>(DMISign = 1  AND MATrend = 1 )</string>
+  <string>(DMITrend = -1  AND HLBand = 1 )</string>
+  <string>((FourWeeksRule = -1  AND BollingerSign = -1 ) OR ParabolicSign = 1 )</string>
+  <string>(DMITrend = 1  AND ((TwoMA = 1  AND TwoMA = 1 ) AND RCISign = -1 ))</string>
+  <string>((ParabolicSign = -1  OR RSISign = 1 ) AND (ParabolicTrend = -1  AND ParabolicSign = 1 ))</string>
+  <string>(RSISign = 1  AND MASign = 1 )</string>
+  <string>(MASign = 1  AND MATrend = 1 )</string>
+  <string>((MACDTrend = 1  OR RCISign = 1 ) AND (PsychologicalSign = 1  OR TwoMA = -1 ))</string>
+  <string>(((MATrend = -1  OR TwoMA = -1 ) AND (MATrend = 1  OR DMITrend = 1 )) OR ((DMITrend = 1  OR ParabolicSign = -1 ) AND (perRSign = -1  AND perRSign = 1 )))</string>
+  <string>((((ParabolicTrend = 1  AND FourWeeksRule = 1 ) OR (PivotSign = 1  OR ROCSign = 1 )) AND ((MATrend = -1  AND DMISign = -1 ) OR (MACDSign = 1  AND ParabolicSign = 1 ))) OR (((MATrend = -1  AND MASign = -1 ) OR (StochasticSign = 1  AND PsychologicalSign = -1 )) AND ((DMISign = -1  OR MATrend = -1 ) OR (MATrend = -1  AND perRSign = 1 ))))</string>
+</ArrayOfString>
